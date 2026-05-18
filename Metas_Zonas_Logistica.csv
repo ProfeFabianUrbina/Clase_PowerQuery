@@ -1,4 +1,37 @@
-Año;Zona;Presupuesto_Maximo_Merma;Coordinador_Logistico
-2026;Santiago Centro;12000000;Alexis Valderrama
-2026;Providencia;9500000;Felipe Ferrada
-2026;Las Condes;15000000;Guillermo Mejías
+Año;Mes;Zona;Presupuesto_Mensual_Merma;Coordinador_Logistico
+2026;Enero;Santiago Centro;1000000;Alexis Valderrama
+2026;Febrero;Santiago Centro;1000000;Alexis Valderrama
+2026;Marzo;Santiago Centro;1000000;Alexis Valderrama
+2026;Abril;Santiago Centro;1000000;Alexis Valderrama
+2026;Mayo;Santiago Centro;1000000;Alexis Valderrama
+2026;Junio;Santiago Centro;1000000;Alexis Valderrama
+2026;Julio;Santiago Centro;1000000;Alexis Valderrama
+2026;Agosto;Santiago Centro;1000000;Alexis Valderrama
+2026;Septiembre;Santiago Centro;1000000;Alexis Valderrama
+2026;Octubre;Santiago Centro;1000000;Alexis Valderrama
+2026;Noviembre;Santiago Centro;1000000;Alexis Valderrama
+2026;Diciembre;Santiago Centro;1000000;Alexis Valderrama
+2026;Enero;Providencia;791667;Felipe Ferrada
+2026;Febrero;Providencia;791667;Felipe Ferrada
+2026;Marzo;Providencia;791667;Felipe Ferrada
+2026;Abril;Providencia;791667;Felipe Ferrada
+2026;Mayo;Providencia;791667;Felipe Ferrada
+2026;Junio;Providencia;791667;Felipe Ferrada
+2026;Julio;Providencia;791667;Felipe Ferrada
+2026;Agosto;Providencia;791667;Felipe Ferrada
+2026;Septiembre;Providencia;791667;Felipe Ferrada
+2026;Octubre;Providencia;791667;Felipe Ferrada
+2026;Noviembre;Providencia;791667;Felipe Ferrada
+2026;Diciembre;Providencia;791667;Felipe Ferrada
+2026;Enero;Las Condes;1250000;Guillermo Mejías
+2026;Febrero;Las Condes;1250000;Guillermo Mejías
+2026;Marzo;Las Condes;1250000;Guillermo Mejías
+2026;Abril;Las Condes;1250000;Guillermo Mejías
+2026;Mayo;Las Condes;1250000;Guillermo Mejías
+2026;Junio;Las Condes;1250000;Guillermo Mejías
+2026;Julio;Las Condes;1250000;Guillermo Mejías
+2026;Agosto;Las Condes;1250000;Guillermo Mejías
+2026;Septiembre;Las Condes;1250000;Guillermo Mejías
+2026;Octubre;Las Condes;1250000;Guillermo Mejías
+2026;Noviembre;Las Condes;1250000;Guillermo Mejías
+2026;Diciembre;Las Condes;1250000;Guillermo Mejías
