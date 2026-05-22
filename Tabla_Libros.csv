@@ -1,0 +1,41 @@
+﻿ID Libro;Título;Autor;Año de Publicación;Género;Precio_Adquisicion;Cantidad de Páginas
+L001;1984;George Orwell;1949;Ficción;22990;360
+L002;Ana Karenina;Leo Tolstoy;1878;Ficción;14990;429
+L003;Breve historia del tiempo;Stephen Hawking;1988;Ciencia;28990;323
+L004;Cien años de soledad;Gabriel García Márquez;1967;Ficción;17990;782
+L005;Cometas en el cielo;Khaled Hosseini;2003;Ficción;14990;178
+L006;Crimen y castigo;Fyodor Dostoevsky;1866;Ficción;19000;502
+L007;Cumbres borrascosas;Emily Brontë;1847;Romance;29990;838
+L008;Don Quijote de la Mancha;Miguel de Cervantes;1605;Ficción;11990;407
+L009;Drácula;Bram Stoker;1897;Terror;19990;894
+L010;El alquimista;Paulo Coelho;1988;Fantasía;26990;462
+L011;El código Da Vinci;Dan Brown;2003;Misterio;15990;305
+L012;El Conde de Montecristo;Alexandre Dumas;1844;Aventura;18990;947
+L013;El gran Gatsby;F. Scott Fitzgerald;1925;Ficción;24990;297
+L014;El guardián entre el centeno;J.D. Salinger;1951;Ficción;28990;168
+L015;El hobbit;J.R.R. Tolkien;1937;Fantasía;24990;374
+L016;El nombre de la rosa;Umberto Eco;1980;Misterio;29990;492
+L017;El principito;Antoine de Saint-Exupéry;1943;Ficción;13990;288
+L018;El proceso;Franz Kafka;1925;Ficción;16990;473
+L019;El retrato de Dorian Gray;Oscar Wilde;1890;Ficción;28990;204
+L020;El señor de los anillos;J.R.R. Tolkien;1954;Fantasía;26990;486
+L021;Fahrenheit 451;Ray Bradbury;1953;Ficción;10990;326
+L022;Frankenstein;Mary Shelley;1818;Terror;16990;248
+L023;Guerra y paz;Leo Tolstoy;1869;Historia;10990;571
+L024;Harry Potter y la piedra filosofal;J.K. Rowling;1997;Fantasía;23990;706
+L025;Jane Eyre;Charlotte Brontë;1847;Romance;29990;882
+L026;La carretera;Cormac McCarthy;2006;Ficción;27990;778
+L027;La Divina Comedia;Dante Alighieri;1320;Poesía;12990;197
+L028;La ladrona de libros;Markus Zusak;2005;Ficción;16990;475
+L029;La metamorfosis;Franz Kafka;1915;Ficción;26990;921
+L030;Las mil y una noches;Anónimo;800;Ficción;30990;206
+L031;Lolita;Vladimir Nabokov;1955;Ficción;13990;573
+L032;Los hermanos Karamázov;Fyodor Dostoevsky;1880;Ficción;16990;545
+L033;Los miserables;Victor Hugo;1862;Ficción;20990;459
+L034;Los tres mosqueteros;Alexandre Dumas;1844;Aventura;14990;1000
+L035;Madame Bovary;Gustave Flaubert;1857;Ficción;28990;582
+L036;Matar a un ruiseñor;Harper Lee;1960;Ficción;30990;439
+L037;Moby Dick;Herman Melville;1851;Ficción;15990;220
+L038;Orgullo y prejuicio;Jane Austen;1813;Romance;16990;513
+L039;Sapiens: De animales a dioses;Yuval Noah Harari;2011;Historia;26990;508
+L040;Un mundo feliz;Aldous Huxley;1932;Ficción;29990;529

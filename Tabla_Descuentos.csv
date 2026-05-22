@@ -1,0 +1,16 @@
+﻿Segmento;Foco;Descuento
+Infancia;Metropolitana;60%
+Adolescencia;Metropolitana;40%
+Adulto Joven;Metropolitana;10%
+Adulto;Metropolitana;0%
+Adulto Mayor;Metropolitana;40%
+Infancia;Norte;65%
+Adolescencia;Norte;45%
+Adulto Joven;Norte;15%
+Adulto;Norte;5%
+Adulto Mayor;Norte;45%
+Infancia;Sur;75%
+Adolescencia;Sur;55%
+Adulto Joven;Sur;25%
+Adulto;Sur;15%
+Adulto Mayor;Sur;55%

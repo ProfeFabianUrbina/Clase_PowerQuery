@@ -1,0 +1,91 @@
+﻿ID Usuario;Nombre;Edad;Género;Ocupación;Región de Residencia;Segmento Edad
+U001;Juan Pérez;70;Otro;Estudiante;Sur;Adulto mayor
+U002;María González;38;Masculino;Jubilado;Metropolitana;Adulto
+U003;Carlos López;67;Femenino;Profesional;Sur;Adulto mayor
+U004;Ana Martínez;32;Femenino;Profesional;Sur;Adulto
+U005;Luis Rodríguez;34;Otro;Profesional;Norte;Adulto
+U006;Carmen Ramírez;36;Masculino;Desempleado;Norte;Adulto
+U007;José Torres;51;Masculino;Profesional;Sur;Adulto
+U008;Laura Sánchez;34;Masculino;Profesional;Centro;Adulto
+U009;Miguel Díaz;22;Otro;Desempleado;Sur;Adulto joven
+U010;Andrea Fernández;24;Femenino;Jubilado;Sur;Adulto joven
+U011;Pedro Ruiz;17;Femenino;Jubilado;Norte;Adolescente
+U012;Sofía Morales;41;Femenino;Estudiante;Sur;Adulto
+U013;Diego Herrera;22;Otro;Estudiante;Sur;Adulto joven
+U014;Claudia Castro;48;Femenino;Jubilado;Centro;Adulto
+U015;Daniela Vargas;59;Otro;Profesional;Metropolitana;Adulto
+U016;Francisco Gómez;51;Otro;Estudiante;Centro;Adulto
+U017;Patricia Romero;70;Otro;Desempleado;Norte;Adulto mayor
+U018;Javier Ortiz;36;Femenino;Profesional;Centro;Adulto
+U019;Elena Peña;57;Femenino;Jubilado;Sur;Adulto
+U020;Héctor Ramos;28;Masculino;Estudiante;Norte;Adulto joven
+U021;Lucía Soto;41;Masculino;Desempleado;Sur;Adulto
+U022;Fernando Paredes;19;Femenino;Jubilado;Metropolitana;Adulto joven
+U023;Gabriela Mendoza;51;Masculino;Estudiante;Sur;Adulto
+U024;Alejandro Navarro;16;Masculino;Desempleado;Norte;Adolescente
+U025;Carolina León;23;Otro;Estudiante;Norte;Adulto joven
+U026;Ricardo Flores;30;Masculino;Profesional;Centro;Adulto
+U027;Valentina Cruz;69;Femenino;Estudiante;Centro;Adulto mayor
+U028;Emilio Medina;40;Otro;Estudiante;Centro;Adulto
+U029;Camila Álvarez;19;Masculino;Estudiante;Sur;Adulto joven
+U030;Esteban Silva;64;Masculino;Profesional;Metropolitana;Adulto mayor
+U031;Rosa Villanueva;32;Femenino;Profesional;Centro;Adulto
+U032;Manuel Aguirre;57;Femenino;Jubilado;Metropolitana;Adulto
+U033;Julieta Contreras;67;Femenino;Profesional;Norte;Adulto mayor
+U034;Nicolás Bravo;55;Femenino;Desempleado;Centro;Adulto
+U035;Paola Mendoza;21;Femenino;Desempleado;Metropolitana;Adulto joven
+U036;Sergio Fuentes;49;Femenino;Desempleado;Norte;Adulto
+U037;Marta Castillo;34;Otro;Desempleado;Metropolitana;Adulto
+U038;Álvaro Reyes;63;Masculino;Estudiante;Metropolitana;Adulto mayor
+U039;Isabel Campos;23;Masculino;Estudiante;Metropolitana;Adulto joven
+U040;Tomás Núñez;63;Otro;Desempleado;Sur;Adulto mayor
+U041;Verónica Araya;34;Masculino;Desempleado;Centro;Adulto
+U042;Raúl Espinoza;38;Masculino;Desempleado;Metropolitana;Adulto
+U043;Adriana Salazar;73;Femenino;Estudiante;Norte;Adulto mayor
+U044;Cristina Suárez;79;Femenino;Desempleado;Norte;Adulto mayor
+U045;Hugo Orellana;49;Masculino;Desempleado;Sur;Adulto
+U046;Patricio Rivas;78;Masculino;Desempleado;Centro;Adulto mayor
+U047;Antonia Vergara;33;Masculino;Profesional;Centro;Adulto
+U048;Iván Hidalgo;72;Masculino;Jubilado;Sur;Adulto mayor
+U049;Silvia Tapia;44;Otro;Profesional;Centro;Adulto
+U050;Roberto Carrasco;60;Femenino;Profesional;Centro;Adulto mayor
+U051;Lorena Cornejo;15;Otro;Desempleado;Norte;Adolescente
+U052;Arturo Cárdenas;44;Femenino;Profesional;Norte;Adulto
+U053;Florencia Ponce;45;Masculino;Jubilado;Norte;Adulto
+U054;Mauricio Sepúlveda;39;Masculino;Estudiante;Sur;Adulto
+U055;Evelyn Sandoval;57;Masculino;Jubilado;Metropolitana;Adulto
+U056;Sebastián Acevedo;43;Otro;Desempleado;Metropolitana;Adulto
+U057;Paulina Molina;48;Masculino;Profesional;Metropolitana;Adulto
+U058;Óscar Zúñiga;36;Masculino;Estudiante;Norte;Adulto
+U059;Catalina Zamora;61;Masculino;Desempleado;Metropolitana;Adulto mayor
+U060;Agustín Vega;50;Otro;Estudiante;Centro;Adulto
+U061;Bárbara Marín;35;Masculino;Desempleado;Norte;Adulto
+U062;Rodrigo Gallardo;41;Femenino;Profesional;Sur;Adulto
+U063;Marisol Farías;74;Femenino;Estudiante;Centro;Adulto mayor
+U064;Felipe Quezada;71;Femenino;Profesional;Sur;Adulto mayor
+U065;Monserrat Olivares;72;Masculino;Desempleado;Centro;Adulto mayor
+U066;Hernán Palma;26;Otro;Jubilado;Metropolitana;Adulto joven
+U067;Fabiola Salinas;20;Masculino;Desempleado;Sur;Adulto joven
+U068;Vicente Valdés;35;Masculino;Desempleado;Norte;Adulto
+U069;Gloria Muñoz;43;Masculino;Desempleado;Sur;Adulto
+U070;César Leiva;64;Otro;Profesional;Metropolitana;Adulto mayor
+U071;Alicia Godoy;17;Masculino;Profesional;Sur;Adolescente
+U072;Pablo Guzmán;53;Masculino;Desempleado;Centro;Adulto
+U073;Teresa Morales;25;Femenino;Profesional;Norte;Adulto joven
+U074;Cristóbal Rojas;22;Masculino;Estudiante;Sur;Adulto joven
+U075;Amelia Sánchez;49;Otro;Estudiante;Metropolitana;Adulto
+U076;Matías Barra;50;Otro;Jubilado;Metropolitana;Adulto
+U077;Clara Villalobos;45;Femenino;Desempleado;Sur;Adulto
+U078;Ignacio Jara;54;Femenino;Desempleado;Sur;Adulto
+U079;Rocío Núñez;46;Femenino;Profesional;Centro;Adulto
+U080;Gustavo Baeza;36;Otro;Jubilado;Sur;Adulto
+U081;Francisca Sanhueza;61;Femenino;Estudiante;Metropolitana;Adulto mayor
+U082;Joaquín Escobar;70;Femenino;Estudiante;Metropolitana;Adulto mayor
+U083;Sara Figueroa;72;Otro;Jubilado;Centro;Adulto mayor
+U084;Leandro Miranda;65;Otro;Jubilado;Sur;Adulto mayor
+U085;Ángela Alarcón;16;Femenino;Profesional;Norte;Adolescente
+U086;Renato Muñoz;53;Otro;Estudiante;Norte;Adulto
+U087;Tamara Ortiz;60;Otro;Estudiante;Sur;Adulto mayor
+U088;Gastón Lara;56;Femenino;Jubilado;Norte;Adulto
+U089;Beatriz Chávez;54;Femenino;Desempleado;Centro;Adulto
+U090;Víctor Carrasco;78;Masculino;Desempleado;Metropolitana;Adulto mayor
