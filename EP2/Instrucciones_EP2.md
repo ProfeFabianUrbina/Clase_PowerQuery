@@ -23,71 +23,62 @@ El propósito de esta evaluación es medir tu capacidad para integrar, transform
 
 Como especialista, has sido asignado para realizar el proceso de extracción, transformación, limpieza e integración de estos datos en una solución unificada.
 
-### Materiales e Insumos Disponibles (Disponibles en GitHub / Carpeta EP2):
-* `Curso- Finanzas.xlsx`
-* `Curso- Desarrollador web.xlsx`
-* `Curso- Diseño.xlsx`
-* `Udemia- Música.csv`
-
+### Materiales e Insumos Disponibles (en la nube):
+* `Curso-Finanzas.csv`: https://raw.githubusercontent.com/ProfeFabianUrbina/Clase_PowerQuery/refs/heads/main/EP2/Curso-Finanzas.csv
+* `Curso-Desarrollador web.csv`: https://raw.githubusercontent.com/ProfeFabianUrbina/Clase_PowerQuery/refs/heads/main/EP2/Curso-DesarrolladorWeb.csv
+* `Curso-Diseño.csv`: https://raw.githubusercontent.com/ProfeFabianUrbina/Clase_PowerQuery/refs/heads/main/EP2/Curso-Diseno.csv
+* `Udemia-Música.csv`: https://raw.githubusercontent.com/ProfeFabianUrbina/Clase_PowerQuery/refs/heads/main/EP2/Udemia-Musica.csv
+* `Precios.csv`: https://raw.githubusercontent.com/ProfeFabianUrbina/Clase_PowerQuery/refs/heads/main/EP2/Precios.csv
 ---
 
 ## 3. Instrucciones Específicas paso a paso
 
 ### Parte I: Extracción, Limpieza y Consolidación (Power Query)
-Debes cargar los 4 archivos de insumo a **Power Query** y construir una **arquitectura modular** organizada de la siguiente manera:
+Debes cargar los 5 archivos de insumo a **Power Query** y construir una **arquitectura modular** organizada de la siguiente manera:
 
-1. **Consulta "Raw_Data" (Datos Absolutos):** Carga las fuentes originales. Esta consulta debe permanecer intacta, reflejando los datos sin modificaciones de origen.
-2. **Consulta "Staging" (Procesamiento y Limpieza):** En esta etapa intermedia deberás realizar el trabajo de carpintería de datos:
-   * Eliminar columnas innecesarias o irrelevantes.
-   * Corregir rigurosamente los tipos de datos (Textos, Números Enteros, Monedas).
-   * Renombrar columnas para mantener un estándar limpio.
-3. **Consulta "Base Maestra" (Resultado Final Normalizado):** Será el resultado final de la consolidación de las 4 áreas. Debe cumplir con los siguientes requisitos:
+1. **Conecta tu archivo a las 5 fuentes de información, crea un "grupo" (carpeta) en el área de consultas llamado "Originales". 
+2. **Asegurate de que los documentos se importan adecuadamente como tablas, sino modifiquelos en "Origen" según la extensión del archivo y el delimitador adecuado. Recuerde promover los encabezados cuando corresponda.
+3. **Duplica las 5 consultas/tablas y guarda los originales en un grupo que debes crear en la zona e consultas. Modifica el nombre de las consultas originales de la siguiente manera del ejemplo: `Curso- Finanzas` se modifica como `Curso-Finanzas-RAW`
+4. **Anexar Consulta:
+   * Verifica que las 4 consultas (Curso-Finanzas, Curso-Desarrollador, Curso-Diseño y Udemia-Música) tengan los mismos nombres y los mismos tipos de datos para cada campos. 
+   * Los campos resultantes deben ser: ID_Curso, Área, Nombre_Curso, URL, Precio, Sucriptores, Vistas y Nivel. 
+     Todos son campos del tipo texto (ABC), salvo los campos Precio, Visitas, Suscriptores, que son de número entero (123). Si un campo numérico fue reconocido como texto, es probable que debas reemplazar espacio, nulos (null) u otros caracteres. Si no tiene el valor se debe reemplazar por cero (0).
+   * Genera un consulta nueva llamada "Maestro Cursos" que debe ser un "anexo" de las 4 consultas. 
+5. **Normalización:** 
+   * Elimina columna URL
+   * Columna Área: Asegurate que la columna "Área", sólo tiene 4 valores distintos (en el filtro puedes poner "Cargar más" para ver la totalidad de los datos). Utiliza formato poner en mayuscula cada palabra. Filtra los registros que se encuentren en blanco o nulos.
+   * Columna Nivel: Asegurate que sólo existan valores válidos (Nivel Principiante, Nivel Intermedio, Nivel Experto y Todos los niveles). Registros en blanco, errores o nulos deben ser filtrados. Cambia el formato a poner en mayuscula cada palabra.
+6. **Consulta "Base Maestra" (Resultado Final Normalizado):** Será el resultado final de la consolidación de las 4 áreas. Debe cumplir con los siguientes requisitos:
    * **No debe contener registros duplicados.**
-   * Debe incluir exactamente las siguientes **9 columnas**: `ID Curso`, `Nombre`, `URL`, `Cantidad de Suscriptores`, `Cantidad de Visualizaciones`, `Precio`, `Área`, `Ganancias`, `Ranking`.
+   * Debe incluir exactamente las siguientes **7 columnas**: `ID_Curso`, `Área`, `Nombre_Curso`, `Precio`, `Suscriptores`, `Vistas`, `Nivel`
+7. **Combinar Consultas:**
+   * En la misma consulta "Base Maestra", combina con la consulta Precios a traves del campo ID_Curso. Expande el campo "Precio" solamente. En la tabla precios no están todos los códigos, por lo tanto no existirá respuesta para todos los ID_Curso. Cambia el nombre de la nueva columna como "Precio_Actualizado"
+   * En la nueva consulta, reemplaza los valores "null" como 0   
 
-#### Columnas Calculadas Requeridas:
-Dentro de tu consulta final en Power Query o mediante fórmulas analíticas, debes generar de manera automatizada:
-* **Ganancias:** Multiplicación de `Precio * Cantidad de Suscriptores`.
-* **Ranking:** Clasificación ordenada de los cursos basada en la mayor cantidad de suscriptores.
-* **Total por Área:** Muestra la suma totalizada de suscriptores agrupada por cada área (*Finanzas, Web, Música, Diseño*).
+#### Columnas Calculadas y Condicionales Requeridas:
+Dentro de tu consulta "Base Maestra" en Power Query, debes generar de manera automatizada:
+* Columnas Condicional: **Precio_Final**: Si la columna "Precio_Actualizado" es mayor que el valor de "Precio" entonces deben dejar el valor de la columna "Precio_Actualizado", de lo contrario dejarán el valor de la columna "Precio"
+* Columna Personalizada: **Ingresos:** Multiplicación de `Precio_Final * Suscriptores`.
+* Columna Personalizada: **Ranking:** Clasificación ordenada de los cursos basada en la mayor cantidad de suscriptores, ordenando los registros de la tabla y luego agregándo un índice, renombra la columna como "Ranking" 
 
-> 📊 **Cierre de la Parte I:** Carga los datos a Excel y genera una **Tabla Dinámica** en una pestaña nueva que muestre de forma resumida la **cantidad total de cursos por cada área**.
+
+**Cierre de la Parte I:** Carga los datos a Excel como "Cerrar y cargar en", y luego escoge "Crear unicamente la conexión". Posteriormente en la opción Consultas y Conexiones en el excel, escoge la consulta "Maestro Cursos" y en "Cargar en" elige mostrarla como una Tabla en una Hoja nueva.
 
 ---
 
-### Parte II: Análisis Crítico de Cursos sin Suscriptores
-1. Crea una hoja nueva en tu libro de Excel y llámala **"Análisis sin suscriptores"**.
+### Parte II: Análisis Crítico
+Tabla 1:
+1. A partir de la Tabla "Maestro Cursos" crea una tabla dinámica en un hoja nueva y llámala **"Análisis"**.
 2. Aplica filtros para aislar exclusivamente aquellos cursos cuya **Cantidad de Suscriptores sea igual a 0**.
-3. **Análisis Escrito:** Inserta un cuadro de texto (o utiliza celdas combinadas con ajuste de texto) y redacta un informe profesional sobre este fenómeno.
-   * *Preguntas guía:* ¿A qué se debe que estos cursos no tengan alumnos? Sugiere causas lógicas (baja visibilidad en la plataforma, precios desproporcionados, falta de descripciones atractivas, etc.).
-4. **Soporte Visual:** Tu análisis debe estar estrictamente respaldado por:
-   * Al menos **un (1) Gráfico Dinámico** que represente visualmente cómo se distribuyen estos cursos sin alumnos entre las distintas áreas.
-   * **Tablas de datos** que justifiquen y demuestren numéricamente tus conclusiones.
+3. **Tabla y gráfico dinámico:** Muestra la cantidad de cursos sin suscriptores por cada Área, muestralo en la tabla dinámica y en un gráfico dinámico.
 
----
+Tabla 2:
+1. Genera una nueva tabla y gráfico dinámico en la misma hoja "Análisis".
+2. En esta tabla y gráfico muestra cuandos Ingresos se generan por cada Nivel
 
-### Parte III: Modelo Relacional y Power Pivot
-Diseña y estructura un **Modelo Entidad-Relación (ERD)** básico para la plataforma Udemia utilizando las herramientas de modelado de Excel (**Power Pivot**):
 
-1. **Entidades Sugeridas:**
-   * **Tabla Curso:** Atributos de `ID`, `Nombre`, `URL`, `Precio`, `Visualizaciones`, `Suscriptores`.
-   * **Tabla Área:** Atributos de `Nombre del área` y `Total de cursos`.
-2. **Relaciones:** Crea las conexiones lógicas correspondientes entre las tablas dentro de la vista de diagrama de Power Pivot.
-3. **Representación Gráfica (Opcional):** Puedes añadir una representación visual de este diagrama conceptual en una pestaña de Excel utilizando Formas o herramientas de SmartArt.
-
----
-
-## 4. Formato de Entrega y Archivos
-Para que tu evaluación sea válida, debes subir a la plataforma de entrega los siguientes archivos guardados estrictamente en formato de libro de Excel estándar (`.xlsx` o `.xls` según determine la sección):
-
-* `Nombre_Apellido_Base_Maestra.xlsx` (Tu archivo central de desarrollo con Power Query, tablas dinámicas y modelo).
-* `Nombre_Apellido_Finanzas.xlsx`
-* `Nombre_Apellido_DesarrolladorWeb.xlsx`
-* `Nombre_Apellido_Diseño.xlsx`
-
-**Cronograma:** Las instrucciones se entregan oficialmente en la **Semana 8** y el encargo final consolidado se recibe en la **Semana 10**.
-
----
+## 3. Formato de Entrega y Archivos
+Entrega tu documento de excel finalizado como "EP2_Apellido_Nombre.xlsx"
 
 ## 5. Pauta de Evaluación (Rúbrica de Logro)
 
