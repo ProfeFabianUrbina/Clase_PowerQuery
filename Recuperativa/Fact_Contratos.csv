@@ -1,0 +1,101 @@
+ID_Contrato;ID_Cliente;Cod_Servicio;Fecha_Firma;Cantidad_Contratada;Comuna_Ejecucion;Región
+CON01;CLI01;SRV04;2026-03-01;2;Santiago;Región Metropolitana
+CON02;CLI05;SRV01;2026-03-24;1;SANTIAGO  ;Región Metropolitana
+CON03;CLI01;SRV05;2026-01-22;3;Ñuñoa;Región Metropolitana
+CON04;CLI02;SRV02;2026-02-18;1;  ñuñoa;Región Metropolitana
+CON05;CLI03;SRV03;2026-01-20;4;providencia;Región Metropolitana
+CON06;CLI01;SRV01;2026-02-10;1;  Las Condes;Región Metropolitana
+CON07;CLI01;SRV05;2026-01-14;4;  ñuñoa;Región Metropolitana
+CON08;CLI02;SRV03;2026-02-09;1;las condes;Región Metropolitana
+CON09;CLI03;SRV02;2026-04-18;1;santiago;Región Metropolitana
+CON10;CLI01;SRV02;2026-04-20;2;las condes;Región Metropolitana
+CON11;CLI01;SRV05;2026-02-18;4;  Las Condes;Región Metropolitana
+CON12;CLI02;SRV04;2026-02-10;1;las condes;Región Metropolitana
+CON13;CLI05;SRV04;2026-04-21;3;SANTIAGO  ;Región Metropolitana
+CON14;CLI02;SRV05;2026-01-26;6;providencia;Región Metropolitana
+CON15;CLI01;SRV02;2026-04-13;4;providencia;Región Metropolitana
+CON16;CLI02;SRV03;2026-01-26;3;Vitacura;Región Metropolitana
+CON17;CLI01;SRV02;2026-02-23;4;  Providencia  ;Región Metropolitana
+CON18;CLI01;SRV03;2026-04-06;1;Vitacura;Región Metropolitana
+CON19;CLI05;SRV05;2026-01-08;6;vitacura  ;Región Metropolitana
+CON20;CLI02;SRV01;2026-03-22;1;ÑUÑOA  ;Región Metropolitana
+CON21;CLI01;SRV04;2026-03-20;4;  ñuñoa;Región Metropolitana
+CON22;CLI03;SRV01;2026-04-12;3;SANTIAGO  ;Región Metropolitana
+CON23;CLI05;SRV05;2026-03-01;2;providencia;Región Metropolitana
+CON24;CLI01;SRV01;2026-02-09;1;SANTIAGO  ;Región Metropolitana
+CON25;CLI03;SRV02;2026-04-25;4;  ñuñoa;Región Metropolitana
+CON26;CLI05;SRV01;2026-02-02;5;Vitacura;Región Metropolitana
+CON27;CLI02;SRV01;2026-01-08;2;SANTIAGO  ;Región Metropolitana
+CON28;CLI03;SRV04;2026-04-26;4;providencia;Región Metropolitana
+CON29;CLI02;SRV03;2026-03-12;6;  Las Condes;Región Metropolitana
+CON30;CLI02;SRV05;2026-01-14;1;Santiago;Región Metropolitana
+CON31;CLI03;SRV04;2026-02-22;2;providencia;Región Metropolitana
+CON32;CLI02;SRV01;2026-04-06;2;Vitacura;Región Metropolitana
+CON33;CLI05;SRV04;2026-02-08;1;providencia;Región Metropolitana
+CON34;CLI01;SRV01;2026-01-20;1;ÑUÑOA  ;Región Metropolitana
+CON35;CLI03;SRV02;2026-01-24;1;SANTIAGO  ;Región Metropolitana
+CON36;CLI05;SRV01;2026-03-06;6;  ñuñoa;Región Metropolitana
+CON37;CLI05;SRV04;2026-01-29;2;  Providencia  ;Región Metropolitana
+CON38;CLI02;SRV01;2026-01-15;6;Vitacura;Región Metropolitana
+CON39;CLI05;SRV05;2026-04-28;2;ÑUÑOA  ;Región Metropolitana
+CON40;CLI03;SRV05;2026-03-09;5;  Providencia;Región Metropolitana
+CON41;CLI05;SRV03;2026-04-18;3;las condes;Región Metropolitana
+CON42;CLI01;SRV04;2026-04-03;4;  Providencia;Región Metropolitana
+CON43;CLI03;SRV04;2026-03-02;1;providencia;Región Metropolitana
+CON44;CLI03;SRV04;2026-04-14;6;  Providencia  ;Región Metropolitana
+CON45;CLI01;SRV04;2026-01-25;5;las condes;Región Metropolitana
+CON46;CLI05;SRV03;2026-03-07;4;Vitacura;Región Metropolitana
+CON47;CLI01;SRV03;2026-02-21;2;providencia;Región Metropolitana
+CON48;CLI05;SRV04;2026-01-10;1;  ñuñoa;Región Metropolitana
+CON49;CLI05;SRV02;2026-04-09;1;Santiago;Región Metropolitana
+CON50;CLI02;SRV05;2026-04-24;1;  Las Condes;Región Metropolitana
+CON51;CLI05;SRV03;2026-02-01;2;Ñuñoa;Región Metropolitana
+CON52;CLI03;SRV03;2026-02-23;1;SANTIAGO  ;Región Metropolitana
+CON53;CLI05;SRV03;2026-02-18;1;las condes;Región Metropolitana
+CON54;CLI03;SRV04;2026-01-15;6;providencia;Región Metropolitana
+CON55;CLI05;SRV04;2026-01-08;2;  Providencia;Región Metropolitana
+CON56;CLI03;SRV04;2026-02-10;4;las condes;Región Metropolitana
+CON57;CLI01;SRV04;2026-03-03;1;  Providencia;Región Metropolitana
+CON58;CLI05;SRV01;2026-02-24;5;ÑUÑOA  ;Región Metropolitana
+CON59;CLI03;SRV05;2026-03-24;3;Vitacura;Región Metropolitana
+CON60;CLI05;SRV04;2026-02-19;3;Santiago;Región Metropolitana
+CON61;CLI01;SRV02;2026-02-22;1;Vitacura;Región Metropolitana
+CON62;CLI03;SRV03;2026-02-24;4;las condes;Región Metropolitana
+CON63;CLI01;SRV03;2026-02-25;2;  Providencia  ;Región Metropolitana
+CON64;CLI05;SRV03;2026-03-03;2;  Providencia;Región Metropolitana
+CON65;CLI01;SRV02;2026-01-13;1;vitacura  ;Región Metropolitana
+CON66;CLI03;SRV03;2026-01-11;6;las condes;Región Metropolitana
+CON67;CLI03;SRV01;2026-03-12;5;Vitacura;Región Metropolitana
+CON68;CLI01;SRV01;2026-03-21;3;santiago;Región Metropolitana
+CON69;CLI05;SRV02;2026-04-12;2;SANTIAGO  ;Región Metropolitana
+CON70;CLI05;SRV04;2026-02-18;2;las condes;Región Metropolitana
+CON71;CLI01;SRV03;2026-01-10;1;providencia;Región Metropolitana
+CON72;CLI03;SRV01;2026-04-16;1;Ñuñoa;Región Metropolitana
+CON73;CLI05;SRV02;2026-03-17;1;providencia;Región Metropolitana
+CON74;CLI03;SRV05;2026-01-09;1;Santiago;Región Metropolitana
+CON75;CLI01;SRV04;2026-03-03;1;las condes;Región Metropolitana
+CON76;CLI01;SRV03;2026-01-16;3;SANTIAGO  ;Región Metropolitana
+CON77;CLI03;SRV03;2026-01-19;1;  ñuñoa;Región Metropolitana
+CON88;CLI02;SRV01;2026-02-12;3;SANTIAGO  ;Región Metropolitana
+CON79;CLI01;SRV01;2026-02-21;1;  Providencia  ;Región Metropolitana
+CON80;CLI02;SRV03;2026-04-12;1;santiago;Región Metropolitana
+CON81;CLI03;SRV05;2026-02-10;2;  ñuñoa;Región Metropolitana
+CON82;CLI03;SRV02;2026-02-10;4;Santiago;Región Metropolitana
+CON83;CLI05;SRV04;2026-01-04;5;SANTIAGO  ;Región Metropolitana
+CON84;CLI01;SRV05;2026-04-03;1;SANTIAGO  ;Región Metropolitana
+CON85;CLI01;SRV03;2026-04-18;2;Santiago;Región Metropolitana
+CON86;CLI03;SRV02;2026-03-22;5;  Providencia  ;Región Metropolitana
+CON87;CLI03;SRV01;2026-01-15;2;las condes;Región Metropolitana
+CON88;CLI02;SRV01;2026-02-12;3;SANTIAGO  ;Región Metropolitana
+CON89;CLI03;SRV03;2026-01-12;2;  Providencia;Región Metropolitana
+CON90;CLI05;SRV04;2026-01-01;2;providencia;Región Metropolitana
+CON91;CLI01;SRV02;2026-03-24;1;Santiago;Región Metropolitana
+CON92;CLI05;SRV04;2026-03-09;2;  Providencia;Región Metropolitana
+CON93;CLI05;SRV02;2026-01-05;2;  ñuñoa;Región Metropolitana
+CON94;CLI02;SRV02;2026-03-12;1;providencia;Región Metropolitana
+CON95;CLI02;SRV03;2026-04-20;1;  Las Condes;Región Metropolitana
+CON96;CLI02;SRV04;2026-04-19;4;SANTIAGO  ;Región Metropolitana
+CON97;CLI05;SRV01;2026-02-20;4;  ñuñoa;Región Metropolitana
+CON98;CLI02;SRV05;2026-02-15;5;las condes;Región Metropolitana
+CON99;CLI02;SRV04;2026-04-14;4;  Las Condes;Región Metropolitana
+CON100;CLI05;SRV01;2026-04-01;2;Santiago;Región Metropolitana
