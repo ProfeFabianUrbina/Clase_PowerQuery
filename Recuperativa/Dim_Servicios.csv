@@ -1,4 +1,4 @@
-Cod_Servicio;Nombre_Servicio;Área;Precio_Unitario
+Servicio;Nombre_Servicio;Área;Precio_Unitario
 SRV01;Asesoría Contable Mensual;Finanzas;120000
 SRV02;Auditoría de Procesos;Operaciones;450000
 SRV03;Consultoría Tributaria;Finanzas;250000
