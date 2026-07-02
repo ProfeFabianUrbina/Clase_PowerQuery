@@ -1,0 +1,6 @@
+Cod_Servicio;Nombre_Servicio;Área;Precio_Unitario
+SRV01;Asesoría Contable Mensual;Finanzas;120000
+SRV02;Auditoría de Procesos;Operaciones;450000
+SRV03;Consultoría Tributaria;Finanzas;250000
+SRV04;Soporte TI e Infraestructura;Tecnología;180000
+SRV05;Desarrollo Low-Code ERP;Tecnología;600000
